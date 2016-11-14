@@ -29,5 +29,13 @@
                 }
             }
         }
-    ]
+    ],
+    "options": {
+        "categoryOrder": {
+            "official": 0,
+            "Distributions": 1,
+            "Development": 2,
+            "Web Services": 3
+        }
+    }
 }

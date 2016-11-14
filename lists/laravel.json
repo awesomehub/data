@@ -19,8 +19,35 @@
             "type": "github.list",
             "data": "chiraggude/awesome-laravel",
             "options": {
-                "markdownCategories": {}
+                "markdownCategories": {
+                    "H5(Authentication & Authorisation)": { "rename": "Authentication" },
+                    "H5(Databases, ORMs, Migrations & Seeding)": { "rename": "Databases & ORMs" },
+                    "H5(Tasks, Commands and Scheduling)": { "rename": "Tasks" },
+                    "H5(Third-party Service Integration)": { "rename": "Third-party APIs" },
+                    "H2(Content Management Systems)": { "rename": "CMS" }
+                }
             }
+        },
+        {
+            "type": "github.repos",
+            "options": {
+                "category": "CMS"
+            },
+            "data": [
+                "pyrocms/pyrocms",
+                "octobercms/october",
+                "LavaLite/cms",
+                "AsgardCms/Platform",
+                "microweber/microweber",
+                "Web-Feet/coastercms"
+            ]
         }
-    ]
+    ],
+    "options": {
+        "categoryOrder": {
+            "official": 0,
+            "Databases & ORMs": 1,
+            "CMS": 2
+        }
+    }
 }
