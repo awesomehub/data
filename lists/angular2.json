@@ -1,0 +1,85 @@
+{
+    "id": "angular2",
+    "name": "Angular 2",
+    "desc": "Awesome Angular 2 resources, libraries and tools",
+    "score": 20,
+    "sources": [
+        {
+            "type": "github.repos",
+            "options": {
+                "categories": {
+                    "Official": "*",
+                    "Dart": "^repo.github\\:dart-lang\\/"
+                }
+            },
+            "data": [
+                "angular/angular",
+                "angular/angular.io",
+                "angular/angular-cli",
+                "angular/zone.js",
+                "angular/tsickle",
+                "angular/protractor",
+                "angular/angularfire2",
+                "angular/universal-starter",
+                "angular/angular2-seed",
+                "angular/universal",
+                "angular/angular-electron",
+                "angular/quickstart",
+                "angular/material2",
+                "dart-lang/angular2",
+                "dart-lang/angular2_components",
+                "dart-lang/angular2_components_example"
+            ]
+        },
+        {
+            "type": "github.repos",
+            "options": {
+                "category": "Material Design"
+            },
+            "data": [
+                "Promact/md2",
+                "justindujardin/ng2-material",
+                "mseemann/angular2-mdl",
+                "leifoolsen/mdl-ext"
+            ]
+        },
+        {
+            "type": "github.list",
+            "data": "https://raw.githubusercontent.com/AngularClass/awesome-angular2/gh-pages/README.md",
+            "options": {
+                "markdownCategories": {
+                    "H4(Official Resources)": { "ignore": true },
+                    "H4(Universal Seed Projects)": { "rename": "Universal" },
+                    "H4(Universal General Resources)": { "rename": "Universal" },
+                    "H4(Server-Side Rendering)": { "rename": "Universal" },
+                    "H4(TypeScript Seed Projects)": { "rename": "Seeds" },
+                    "H4(React Native Projects)": { "rename": "React Native" },
+                    "H4(React Native Seed Projects)": { "rename": "React Native" },
+                    "H4(TypeScript General Resources)": { "rename": "TypeScript" },
+                    "H4(NativeScript Seed Projects)": { "rename": "NativeScript" },
+                    "H4(Haxe Seed Projects)": { "rename": "Haxe" },
+                    "H4(Babel General Resources)": { "rename": "Babel" },
+                    "H4(Babel Demo, Samples, and Examples)": { "rename": "Babel" },
+                    "H4(Babel Seed Projects)": { "rename": "Babel" },
+                    "H4(Babel Plugins)": { "rename": "Babel" },
+                    "H5(Ionic 2 General Resources)": { "rename": "Ionic 2" },
+                    "H5(Cordova Seed Projects)": { "rename": "Cordova" },
+                    "H4(Dart Seed Projects)": { "rename": "Dart" },
+                    "H4(Dart Demo, Samples, and Examples)": { "rename": "Dart" },
+                    "H4(Traceur General Resources)": { "ignore": true },
+                    "H4(Traceur Seed Projects)": { "ignore": true }
+                }
+            }
+        }
+    ],
+    "options": {
+        "categoryOrder": {
+            "official": 0,
+            "Dart": 1,
+            "Seeds": 2,
+            "Components": 3,
+            "Pipes": 4,
+            "Material Design": 5
+        }
+    }
+}

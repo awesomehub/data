@@ -1,0 +1,15 @@
+{
+    "github": {
+        "tokens": [
+        	# Personal Token
+            ["basic", "USERNAME", "PASSWORD_OR_TOKEN"],
+            # APP client-secret auth
+            ["client_secret", "APP_CLIENT_ID", "APP_SECRET"],
+            # Unauthenticated
+            ["null"]
+        ]
+    },
+    "dist": {
+        "listCollections": {}
+    }
+}

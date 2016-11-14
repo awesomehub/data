@@ -1,0 +1,26 @@
+{
+    "id": "laravel",
+    "name": "Laravel",
+    "desc": "Awesome Laravel packages, utilities and resources",
+    "score": 20,
+    "sources": [
+        {
+            "type": "github.author",
+            "data": {
+                "type": "org",
+                "name": "laravel"
+            },
+            "options": {
+                "category": "Official",
+                "exclude": []
+            }
+        },
+        {
+            "type": "github.list",
+            "data": "chiraggude/awesome-laravel",
+            "options": {
+                "markdownCategories": {}
+            }
+        }
+    ]
+}

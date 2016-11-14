@@ -1,0 +1,56 @@
+{
+    "id": "webpack",
+    "name": "Webpack",
+    "desc": "Awesome Webpack resources, libraries and tools",
+    "score": 20,
+    "sources": [
+        {
+            "type": "github.author",
+            "data": {
+                "type": "org",
+                "name": "webpack"
+            },
+            "options": {
+                "categories": {
+                    "Official": "*"
+                }
+            }
+        },
+        {
+            "type": "github.list",
+            "data": "d3viant0ne/awesome-webpack",
+            "options": {
+                "markdownCategories": {
+                    "H3(Loaders)/H4(File Type)": {
+                        "rename": "Loaders/File Type"
+                    },
+                    "H3(Loaders)/H4(Component & Template)": {
+                        "rename": "Loaders/Component & Template"
+                    },
+                    "H3(Webpack Plugins)": {
+                        "rename": "Plugins"
+                    },
+                    "H3(Webpack Tools)": {
+                        "rename": "Tools"
+                    },
+                    "H3(Twitter)": {
+                        "ignore": true
+                    }
+                }
+            }
+        }
+    ],
+    "options": {
+        "categoryOrder": {
+            "official": 0,
+            "loaders": 1,
+            "plugins": 2,
+            "styles": 3,
+            "language-framework": 4,
+            "react": 7,
+            "angular": 8,
+            "tools": 9,
+            "testing": 10
+        }
+    }
+}

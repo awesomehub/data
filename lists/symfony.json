@@ -1,0 +1,33 @@
+{
+    "id": "symfony",
+    "name": "Symfony",
+    "desc": "Awesome Symfony bundles, utilities and resources",
+    "score": 20,
+    "sources": [
+        {
+            "type": "github.author",
+            "data": {
+                "type": "org",
+                "name": "symfony"
+            },
+            "options": {
+                "category": "Official",
+                "exclude": [
+                    "^repo\\.github\\:symfony\\/polyfill",
+                    "^repo\\.github\\:symfony\\/symfony1"
+                ]
+            }
+        },
+        {
+            "type": "github.list",
+            "data": "sitepoint/awesome-symfony",
+            "options": {
+                "markdownCategories": {
+                    "H2(Third Party APIs)": { "rename": "Third-party APIs" },
+                    "H2(Administration)": { "rename": "Admin" },
+                    "H2(Internationalization)": { "rename": "Intl" }
+                }
+            }
+        }
+    ]
+}
