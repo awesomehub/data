@@ -46,8 +46,8 @@
     "options": {
         "categoryOrder": {
             "official": 0,
-            "Databases & ORMs": 1,
-            "CMS": 2
+            "databases-orms": 1,
+            "cms": 2
         }
     }
 }

@@ -33,9 +33,9 @@
     "options": {
         "categoryOrder": {
             "official": 0,
-            "Distributions": 1,
-            "Development": 2,
-            "Web Services": 3
+            "distributions": 1,
+            "development": 2,
+            "web-services": 3
         }
     }
 }
