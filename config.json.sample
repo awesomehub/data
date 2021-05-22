@@ -1,15 +1,15 @@
 {
-    "github": {
-        "tokens": [
-        	# Personal Access Token
-            ["pat", "TOKEN"],
-            # APP client-secret auth
-            ["client_secret", "APP_CLIENT_ID", "APP_SECRET"],
-            # Unauthenticated
-            ["null"]
-        ]
-    },
-    "dist": {
-        "listCollections": {}
-    }
+  "github": {
+    "tokens": [
+      # Personal Access Token
+      ["pat", "TOKEN"],
+      # APP client-secret auth
+      ["client_secret", "APP_CLIENT_ID", "APP_SECRET"],
+      # Unauthenticated
+      ["null"]
+    ]
+  },
+  "dist": {
+    "listCollections": {}
+  }
 }
