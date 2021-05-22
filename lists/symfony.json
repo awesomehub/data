@@ -12,7 +12,8 @@
       "options": {
         "category": "Official",
         "exclude": [
-          "^repo\\.github\\:symfony\\/polyfill"
+          "polyfill",
+          "\\/\\.github$"
         ]
       }
     },
@@ -23,7 +24,10 @@
         "name": "sonata-project"
       },
       "options": {
-        "category": "Sonata Project"
+        "categories": {
+          "Sonata Project/Bundles": "/Bundle$/",
+          "Sonata Project/Libraries": "!/Bundle$/"
+        }
       }
     },
     {
@@ -35,7 +39,7 @@
       "options": {
         "categories": {
           "KNP Labs/Bundles": "/Bundle$/",
-          "KNP Labs/Utilities": "!/Bundle$/"
+          "KNP Labs/Libraries": "!/Bundle$/"
         }
       }
     },
@@ -46,7 +50,10 @@
         "name": "FriendsOfSymfony"
       },
       "options": {
-        "category": "FriendsOfSymfony"
+        "categories": {
+          "FriendsOfSymfony/Bundles": "/Bundle$/",
+          "FriendsOfSymfony/Libraries": "!/Bundle$/"
+        }
       }
     },
     {
@@ -114,6 +121,10 @@
     "categoryOrder": [
       "official",
       "distributions",
+      "sonata-project",
+      "knp-labs",
+      "friendsofsymfony",
+      "cms",
       "development",
       "web-services"
     ]

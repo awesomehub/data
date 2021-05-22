@@ -20,7 +20,24 @@
         "name": "spatie"
       },
       "options": {
-        "category": "Spatie"
+        "category": "Spatie",
+        "exclude": [
+          "\\/\\.github$"
+        ]
+      }
+    },
+    {
+      "type": "github.author",
+      "data": {
+        "type": "org",
+        "name": "LaravelCollective"
+      },
+      "options": {
+        "category": "Laravel Collective",
+        "exclude": [
+          "\\/laracon-bingo$",
+          "\\/laravelcollective\\.com$"
+        ]
       }
     },
     {
@@ -29,10 +46,13 @@
       "options": {
         "markdownCategories": {
           "H2(Packages)": { "rename": "Packages/{name}" },
-          "H2(Packages)/H3(Database/Eloquent/Models)": { "rename": "Packages/Database & Eloquent", "force": true },
+          "H2(Packages)/H3(Authentication/Security)": { "rename": "Packages/Authentication", "force": true },
+          "H2(Packages)/H3(Database/Eloquent/Models)": { "rename": "Packages/Database", "force": true },
+          "H2(Packages)/H3(Third-Party API Support)": { "rename": "Packages/Third-Party APIs", "force": true },
+          "H2(Packages)/H3(Algorithms/Data Structures)": { "rename": "Packages/Algorithms", "force": true },
           "H2(Packages)/H3(Helpers/General)": { "rename": "Packages/Helpers", "force": true },
-          "H2(Packages)/H3(JavaScript Framework Support)": { "rename": "Packages/JavaScript Frameworks", "force": true },
-          "H2(Packages)/H3(Boilerplate/Customized Configurations)": { "rename": "Packages/Boilerplate Configurations", "force": true },
+          "H2(Packages)/H3(JavaScript Framework Support)": { "rename": "Packages/JavaScript", "force": true },
+          "H2(Packages)/H3(Boilerplate/Customized Configurations)": { "rename": "Packages/Boilerplates", "force": true },
           "H2(Tutorials)": { "ignore": true },
           "H2(Resources)": { "ignore": true },
           "H2(Resources)/H3(Applications Built with Laravel)": { "rename": "Live Applications", "force": true }
@@ -67,6 +87,7 @@
       "cms",
       "live-applications",
       "spatie",
+      "laravel-collective",
       "packages"
     ]
   }
