@@ -1,56 +1,74 @@
 {
-    "id": "webpack",
-    "name": "Webpack",
-    "desc": "Awesome Webpack resources, libraries and tools",
-    "score": 20,
-    "sources": [
-        {
-            "type": "github.author",
-            "data": {
-                "type": "org",
-                "name": "webpack"
-            },
-            "options": {
-                "categories": {
-                    "Official": "*"
-                }
-            }
-        },
-        {
-            "type": "github.list",
-            "data": "d3viant0ne/awesome-webpack",
-            "options": {
-                "markdownCategories": {
-                    "H3(Loaders)/H4(File Type)": {
-                        "rename": "Loaders/File Type"
-                    },
-                    "H3(Loaders)/H4(Component & Template)": {
-                        "rename": "Loaders/Component & Template"
-                    },
-                    "H3(Webpack Plugins)": {
-                        "rename": "Plugins"
-                    },
-                    "H3(Webpack Tools)": {
-                        "rename": "Tools"
-                    },
-                    "H3(Twitter)": {
-                        "ignore": true
-                    }
-                }
-            }
+  "id": "webpack",
+  "name": "Webpack",
+  "desc": "A bundler for javascript and friends.",
+  "sources": [
+    {
+      "type": "github.author",
+      "data": {
+        "type": "org",
+        "name": "webpack"
+      },
+      "options": {
+        "category": "Official"
+      }
+    },
+   {
+      "type": "github.author",
+      "data": {
+        "type": "org",
+        "name": "webpack-contrib"
+      },
+      "options": {
+        "category": "Official Contrib"
+      }
+    },
+    {
+      "type": "github.list",
+      "data": "webpack-contrib/awesome-webpack",
+      "options": {
+        "markdownCategories": {
+          "H3(Loaders)": { "rename": "Loaders/{name}" },
+          "H3(Webpack Plugins)": { "rename": "Plugins" },
+          "H3(Webpack Tools)": { "rename": "Tools" },
+          "H3(Twitter)": { "ignore": true }
         }
-    ],
-    "options": {
-        "categoryOrder": {
-            "official": 0,
-            "loaders": 1,
-            "plugins": 2,
-            "styles": 3,
-            "language-framework": 4,
-            "react": 7,
-            "angular": 8,
-            "tools": 9,
-            "testing": 10
-        }
+      }
+    },
+    {
+      "type": "github.repos",
+      "options": {
+        "category": "Plugins"
+      },
+      "data": [
+        "lodash/lodash-webpack-plugin",
+        "gilmoreorless/moment-timezone-data-webpack-plugin",
+        "FullHuman/purgecss"
+      ]
+    },
+    {
+      "type": "github.repos",
+      "options": {
+        "category": "Tools"
+      },
+      "data": [
+        "danvk/source-map-explorer",
+        "smelukov/statoscope",
+        "pastelsky/bundlephobia"
+      ]
     }
+  ],
+  "options": {
+    "categoryOrder": [
+      "official",
+      "official-contrib",
+      "plugins",
+      "tools",
+      "react",
+      "angular",
+      "vue",
+      "integration-libraries",
+      "loaders"
+    ]
+  }
 }

@@ -1,53 +1,73 @@
 {
-    "id": "laravel",
-    "name": "Laravel",
-    "desc": "Awesome Laravel packages, utilities and resources",
-    "score": 20,
-    "sources": [
-        {
-            "type": "github.author",
-            "data": {
-                "type": "org",
-                "name": "laravel"
-            },
-            "options": {
-                "category": "Official",
-                "exclude": []
-            }
-        },
-        {
-            "type": "github.list",
-            "data": "chiraggude/awesome-laravel",
-            "options": {
-                "markdownCategories": {
-                    "H5(Authentication & Authorisation)": { "rename": "Authentication" },
-                    "H5(Databases, ORMs, Migrations & Seeding)": { "rename": "Databases & ORMs" },
-                    "H5(Tasks, Commands and Scheduling)": { "rename": "Tasks" },
-                    "H5(Third-party Service Integration)": { "rename": "Third-party APIs" },
-                    "H2(Content Management Systems)": { "rename": "CMS" }
-                }
-            }
-        },
-        {
-            "type": "github.repos",
-            "options": {
-                "category": "CMS"
-            },
-            "data": [
-                "pyrocms/pyrocms",
-                "octobercms/october",
-                "LavaLite/cms",
-                "AsgardCms/Platform",
-                "microweber/microweber",
-                "Web-Feet/coastercms"
-            ]
+  "id": "laravel",
+  "name": "Laravel",
+  "desc": "A PHP framework for web artisans.",
+  "sources": [
+    {
+      "type": "github.author",
+      "data": {
+        "type": "org",
+        "name": "laravel"
+      },
+      "options": {
+        "category": "Official"
+      }
+    },
+    {
+      "type": "github.author",
+      "data": {
+        "type": "org",
+        "name": "spatie"
+      },
+      "options": {
+        "category": "Spatie"
+      }
+    },
+    {
+      "type": "github.list",
+      "data": "TimothyDJones/awesome-laravel",
+      "options": {
+        "markdownCategories": {
+          "H2(Packages)": { "rename": "Packages/{name}" },
+          "H2(Packages)/H3(Database/Eloquent/Models)": { "rename": "Packages/Database & Eloquent", "force": true },
+          "H2(Packages)/H3(Helpers/General)": { "rename": "Packages/Helpers", "force": true },
+          "H2(Packages)/H3(JavaScript Framework Support)": { "rename": "Packages/JavaScript Frameworks", "force": true },
+          "H2(Packages)/H3(Boilerplate/Customized Configurations)": { "rename": "Packages/Boilerplate Configurations", "force": true },
+          "H2(Tutorials)": { "ignore": true },
+          "H2(Resources)": { "ignore": true },
+          "H2(Resources)/H3(Applications Built with Laravel)": { "rename": "Live Applications", "force": true }
         }
-    ],
-    "options": {
-        "categoryOrder": {
-            "official": 0,
-            "databases-orms": 1,
-            "cms": 2
-        }
+      }
+    },
+    {
+      "type": "github.repos",
+      "options": {
+        "category": "CMS"
+      },
+      "data": [
+        "pyrocms/pyrocms",
+        "octobercms/october",
+        "LavaLite/cms",
+        "AsgardCms/Platform",
+        "microweber/microweber",
+        "area17/twill",
+        "TypiCMS/Base",
+        "marcoax/maguttiCms",
+        "statamic/cms",
+        "themsaid/wink",
+        "ozdemirburak/laravel-8-simple-cms",
+        "AlexStack/Laravel-CMS",
+        "Web-Feet/coastercms"
+      ]
     }
+  ],
+  "options": {
+    "categoryOrder": [
+      "official",
+      "cms",
+      "live-applications",
+      "spatie",
+      "packages"
+    ]
+  }
 }

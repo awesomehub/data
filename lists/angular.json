@@ -1,0 +1,152 @@
+{
+  "id": "angular",
+  "name": "Angular",
+  "desc": "The modern web developers platform.",
+  "sources": [
+    {
+      "type": "github.repos",
+      "data": [
+        "angular/angular",
+        "angular/angular.js",
+        "angular/angular-cli",
+        "angular/universal",
+        "angular/components",
+        "angular/material",
+        "angular/tsickle",
+        "angular/protractor",
+        "angular/angularfire",
+        "angular/flex-layout",
+        "angular/angular-seed",
+        "angular/angular-phonecat",
+        "angular/material.angular.io",
+        "angular/quickstart"
+      ],
+      "options": {
+        "category": "Official"
+      }
+    },
+    {
+      "type": "github.author",
+      "data": {
+        "type": "org",
+        "name": "angulardart"
+      },
+      "options": {
+        "categories": {
+          "Official": "*",
+          "Angular Dart": "*"
+        }
+      }
+    },
+    {
+      "type": "github.repos",
+      "data": [
+        "ngrx/platform",
+        "datorama/akita",
+        "ReactiveX/rxjs",
+        "ngxs/store",
+        "ngxs/cli"
+      ],
+      "options": {
+        "category": "State Management"
+      }
+    },
+    {
+      "type": "github.repos",
+      "data": [
+        "awesomehub/app",
+        "angular/angular-phonecat",
+        "gothinkster/angular-realworld-example-app",
+        "rpaschoal/ng-chat",
+        "r-park/soundcloud-ngrx"
+      ],
+      "options": {
+        "category": "Apps"
+      }
+    },
+    {
+      "type": "github.repos",
+      "data": [
+        "ng-alain/ng-alain",
+        "coreui/coreui-free-angular-admin-template"
+      ],
+      "options": {
+        "category": "Seeds"
+      }
+    },
+    {
+      "type": "github.repos",
+      "data": [
+        "cloudinary/cloudinary_angular",
+        "FranzDiebold/ng-google-sheets-db-library"
+      ],
+      "options": {
+        "category": "Components/Backend Components"
+      }
+    },
+    {
+      "type": "github.repos",
+      "data": [
+        "cipchk/ngx-countdown",
+        "wynfred/ngx-masonry",
+        "orizens/ngx-infinite-scroll",
+        "didinj/angular-9-coronavirus-cases-app"
+      ],
+      "options": {
+        "category": "Components/Misc Components"
+      }
+    },
+    {
+      "type": "github.repos",
+      "data": [
+        "danialfarid/ng-file-upload",
+        "vugar005/ngx-awesome-uploader",
+        "bleenco/ngx-uploader",
+        "georgipeltekov/ngx-file-drop",
+        "flowjs/ngx-flow"
+      ],
+      "options": {
+        "category": "Components/File Upload"
+      }
+    },
+    {
+      "type": "github.list",
+      "data": "https://raw.githubusercontent.com/AngularClass/awesome-angular2/gh-pages/README.md",
+      "options": {
+        "markdownCategories": {
+          "H4(Official Resources)": { "ignore": true },
+          "H4(Features)": { "ignore": true },
+          "H4(Style Guides)": { "ignore": true },
+          "H4(Server-Side Rendering)": { "rename": "Universal" },
+          "H4(TypeScript Seed Projects)": { "rename": "Seeds" },
+          "H4(NativeScript Seed Projects)": { "rename": "Seeds" },
+          "H4(Meteor Seed Projects)": { "rename": "Seeds" },
+          "H4(TypeScript General Resources)": { "rename": "TypeScript" },
+          "H3(Third Party Components)": { "rename": "Components/{name}" },
+          "H3(Third Party Components)/H4(Drag/Drop)": { "rename": "Components/Drag & Drop", "force": true },
+          "H3(Universal Angular 2)": { "rename": "Universal" },
+          "H4(Ionic 2 in Angular 2)": { "rename": "Ionic" },
+          "H3(Angular 2 in Babel)": { "rename": "Babel" },
+          "H4(Angular 2 in React Native)": { "rename": "React Native" },
+          "H3(Angular 2 in Dart)": { "rename": "Angular Dart" },
+          "H4(Angular 2 in Cordova)": { "rename": "Integrations" },
+          "H3(Angular 2 in Traceur)": { "rename": "Integrations" },
+          "H3(Angular 2 in Haxe)": { "ignore": true },
+          "H3(Angular 2 in Scala)": { "ignore": true }
+        }
+      }
+    }
+  ],
+  "options": {
+    "categoryOrder": [
+      "official",
+      "state-management",
+      "angular-cli",
+      "universal",
+      "seeds",
+      "apps",
+      "material-design",
+      "components"
+    ]
+  }
+}

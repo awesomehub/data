@@ -1,8 +1,8 @@
 {
     "github": {
         "tokens": [
-        	# Personal Token
-            ["basic", "USERNAME", "PASSWORD_OR_TOKEN"],
+        	# Personal Access Token
+            ["pat", "TOKEN"],
             # APP client-secret auth
             ["client_secret", "APP_CLIENT_ID", "APP_SECRET"],
             # Unauthenticated
