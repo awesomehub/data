@@ -20,7 +20,10 @@
         "name": "spatie"
       },
       "options": {
-        "category": "Spatie",
+        "categories": {
+          "Spatie/Packages": "laravel-",
+          "Spatie/Libraries": "!laravel-"
+        },
         "exclude": [
           "\\/\\.github$"
         ]
@@ -39,6 +42,46 @@
           "\\/laravelcollective\\.com$"
         ]
       }
+    },
+    {
+      "type": "github.author",
+      "data": {
+        "type": "org",
+        "name": "optimistdigital"
+      },
+      "options": {
+        "category": "Laravel Nova",
+        "exclude": [
+          "!nova"
+        ]
+      }
+    },
+    {
+      "type": "github.repos",
+      "options": {
+        "category": "Laravel Nova"
+      },
+      "data": [
+        "whitecube/nova-flexible-content",
+        "vyuldashev/nova-permission",
+        "epartment/nova-dependency-container",
+        "ebess/advanced-nova-media-library",
+        "spatie/nova-backup-tool",
+        "spatie/nova-tail-tool",
+        "InfinetyEs/Nova-Filemanager",
+        "coderello/laravel-nova-lang",
+        "eminiarts/nova-tabs",
+        "whitecube/nova-page"
+      ]
+    },
+    {
+      "type": "github.repos",
+      "options": {
+        "category": "Packages/Database"
+      },
+      "data": [
+        "algolia/scout-extended"
+      ]
     },
     {
       "type": "github.list",
@@ -88,6 +131,7 @@
       "live-applications",
       "spatie",
       "laravel-collective",
+      "laravel-nova",
       "packages"
     ]
   }
