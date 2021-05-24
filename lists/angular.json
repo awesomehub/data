@@ -1,7 +1,7 @@
 {
   "id": "angular",
   "name": "Angular",
-  "desc": "The modern web developers platform.",
+  "desc": "Awesome Angular components, modules, seed repos, starters and applications.",
   "sources": [
     {
       "type": "github.repos",

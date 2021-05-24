@@ -1,7 +1,7 @@
 {
   "id": "react",
   "name": "React",
-  "desc": "A JavaScript library for building user interfaces.",
+  "desc": "Awesome React components, libraries, ui frameworks, starters and resources.",
   "sources": [
     {
       "type": "github.repos",
