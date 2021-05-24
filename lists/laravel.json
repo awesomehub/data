@@ -58,9 +58,6 @@
     },
     {
       "type": "github.repos",
-      "options": {
-        "category": "Laravel Nova"
-      },
       "data": [
         "whitecube/nova-flexible-content",
         "vyuldashev/nova-permission",
@@ -72,16 +69,96 @@
         "coderello/laravel-nova-lang",
         "eminiarts/nova-tabs",
         "whitecube/nova-page"
-      ]
+      ],
+      "options": {
+        "category": "Laravel Nova"
+      }
     },
     {
       "type": "github.repos",
+      "data": [
+        "algolia/scout-extended",
+        "beyondcode/laravel-vouchers",
+        "beyondcode/laravel-comments",
+        "beyondcode/laravel-er-diagram-generator",
+        "beyondcode/laravel-masked-db-dump",
+        "beyondcode/laravel-query-detector"
+      ],
       "options": {
         "category": "Packages/Database"
-      },
+      }
+    },
+    {
+      "type": "github.repos",
       "data": [
-        "algolia/scout-extended"
-      ]
+        "beyondcode/laravel-websockets"
+      ],
+      "options": {
+        "category": "Packages/REST & Web Services"
+      }
+    },
+    {
+      "type": "github.repos",
+      "data": [
+        "beyondcode/laravel-credentials",
+        "beyondcode/laravel-confirm-email"
+      ],
+      "options": {
+        "category": "Packages/Authentication"
+      }
+    },
+    {
+      "type": "github.repos",
+      "data": [
+        "beyondcode/laravel-view-xray"
+      ],
+      "options": {
+        "category": "Packages/Views"
+      }
+    },
+    {
+      "type": "github.repos",
+      "data": [
+        "beyondcode/laravel-vouchers"
+      ],
+      "options": {
+        "category": "Packages/E-commerce"
+      }
+    },
+    {
+      "type": "github.repos",
+      "data": [
+        "beyondcode/slack-notification-channel",
+        "beyondcode/laravel-mailbox"
+      ],
+      "options": {
+        "category": "Packages/Third-Party APIs"
+      }
+    },
+    {
+      "type": "github.repos",
+      "data": [
+        "beyondcode/dusk-dashboard",
+        "beyondcode/livewire-devtools",
+        "beyondcode/laravel-query-detector",
+        "beyondcode/laravel-debugbar-companion",
+        "beyondcode/laravel-dump-server",
+        "beyondcode/laravel-self-diagnosis"
+      ],
+      "options": {
+        "category": "Packages/Development Tools"
+      }
+    },
+    {
+      "type": "github.repos",
+      "data": [
+        "beyondcode/laravel-favicon",
+        "beyondcode/tinkerwell-helper",
+        "beyondcode/laravel-server-timing"
+      ],
+      "options": {
+        "category": "Packages/Helpers"
+      }
     },
     {
       "type": "github.list",
