@@ -1,0 +1,59 @@
+{
+  "id": "selfhosted",
+  "name": "Self-hosted Apps",
+  "desc": "Awesome free software network services and web applications which can be hosted locally.",
+  "sources": [
+    {
+      "type": "github.list",
+      "data": "awesome-selfhosted/awesome-selfhosted",
+      "options": {
+        "markdownCategories": {
+          "H3(Email)": { "rename": "Email/{name}" },
+          "H3(Email)/H4(Mailing lists and Newsletters)": { "rename": "Email/Newsletters" },
+          "H3(XMPP)": { "rename": "XMPP/{name}" },
+          "H2[Archiving and Digital Preservation (DP)]": { "rename": "Archiving & DP" },
+          "H2[Content Management Systems (CMS)]": { "rename": "CMS/General" },
+          "H2[Content Management Systems (CMS)]/H3[Recipe management]": { "rename": "CMS/Recipe Management" },
+          "H2[Content Management Systems (CMS)]/H3[E-commerce]": { "rename": "CMS/E-Commerce" },
+          "H3(CalDAV or CardDAV servers)": { "rename": "Calendar & Contacts/Servers" },
+          "H3(CalDAV or CardDAV web-based clients)": { "rename": "Calendar & Contacts/Clients" },
+          "H4(File transfer/synchronization)": { "rename": "File Sharing & Sync/General" },
+          "H4(Peer-to-peer filesharing)": { "rename": "File Sharing & Sync/P2P" },
+          "H4(Object storage/file servers)": { "rename": "File Sharing & Sync/Object Storage" },
+          "H4(Single-click/drag-n-drop upload)": { "rename": "File Sharing & Sync/File Uploaders" },
+          "H4(Web based file managers)": { "rename": "File Sharing & Sync/File Managers" },
+          "H3(SIP)": { "rename": "SIP & IPBX" },
+          "H2(Bookmarks and Link Sharing)": { "rename": "Bookmarks & Link Sharing" },
+          "H2(Misc/Other)": { "rename": "Miscellaneous" },
+          "H3(Custom communication systems)": { "rename": "Communication Systems" },
+          "H3(Social Networks and Forums)": { "rename": "Social Networks" },
+          "H3(Personal e-book management software.)": { "rename": "E-Books & ILS/Personal" },
+          "H3(Enterprise-class library management software.)": { "rename": "E-Books & ILS/Enterprise" },
+          "H3(Institutional repository and digital library software.)": { "rename": "E-Books & ILS/Institutional" },
+          "H2(Gateways and terminal sharing)": { "rename": "Gateways & Terminal Sharing" },
+          "H2[Human Resources Management (HRM)]": { "rename": "HRM" },
+          "H2(Knowledge Management Tools)": { "rename": "Knowledge Management" },
+          "H2[Maps and Global Positioning System (GPS)]": { "rename": "Maps & GPS" },
+          "H2(Money, Budgeting and Management)": { "rename": "Money & Budgeting" },
+          "H2(Media Streaming)": { "rename": "Media Streaming/{name}" },
+          "H2(Software Development)": { "rename": "Software Development/{name}" },
+          "H2(Task management/To-do lists)": { "rename": "Tasks & To-do lists" },
+          "H2(Polls and Events)": { "rename": "Polls & Events" },
+          "H2(Resource Planning)": {}
+        }
+      }
+    },
+    {
+      "type": "github.repos",
+      "data": [
+        "dutchcoders/transfer.sh"
+      ],
+      "options": {
+        "category": "File Sharing & Sync/File Uploaders"
+      }
+    }
+  ],
+  "options": {
+    "categoryOrder": []
+  }
+}

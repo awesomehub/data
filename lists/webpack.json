@@ -20,7 +20,8 @@
         "name": "webpack-contrib"
       },
       "options": {
-        "category": "Official Contrib"
+        "category": "Official Contrib",
+        "exclude": ["\\/awesome-webpack"]
       }
     },
     {
