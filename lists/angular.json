@@ -111,7 +111,7 @@
     },
     {
       "type": "github.list",
-      "data": "https://raw.githubusercontent.com/AngularClass/awesome-angular2/gh-pages/README.md",
+      "data": "https://raw.githubusercontent.com/PatrickJS/awesome-angular/gh-pages/README.md",
       "options": {
         "markdownCategories": {
           "H4(Official Resources)": { "ignore": true },
@@ -123,7 +123,7 @@
           "H4(Meteor Seed Projects)": { "rename": "Seeds" },
           "H4(TypeScript General Resources)": { "rename": "TypeScript" },
           "H3(Third Party Components)": { "rename": "Components/{name}" },
-          "H3(Third Party Components)/H4(Drag/Drop)": { "rename": "Components/Drag & Drop", "force": true },
+          "H3(Third Party Components)/H4(Drag/Drop)": { "rename": "Components/Drag & Drop" },
           "H3(Universal Angular 2)": { "rename": "Universal" },
           "H4(Ionic 2 in Angular 2)": { "rename": "Ionic" },
           "H3(Angular 2 in Babel)": { "rename": "Babel" },

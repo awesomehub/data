@@ -1,0 +1,83 @@
+{
+  "id": "react",
+  "name": "React",
+  "desc": "A JavaScript library for building user interfaces.",
+  "sources": [
+    {
+      "type": "github.repos",
+      "data": [
+        "facebook/react",
+        "facebook/create-react-app",
+        "facebook/prop-types",
+        "facebook/componentkit",
+        "facebook/draft-js",
+        "facebook/docusaurus",
+        "reactjs/react-a11y",
+        "reactjs/react-tabs",
+        "reactjs/react-transition-group",
+        "reactjs/express-react-views",
+        "reactjs/react-modal",
+        "reactjs/react-rails",
+        "reactjs/react-basic",
+        "reactjs/react-codemod",
+        "reactjs/react-docgen"
+      ],
+      "options": {
+        "category": "Official"
+      }
+    },
+    {
+      "type": "github.repos",
+      "data": [
+        "vercel/next.js",
+        "gatsbyjs/gatsby",
+        "facebook/docusaurus",
+        "umijs/umi",
+        "react-static/react-static",
+        "cuttlebelle/cuttlebelle",
+        "brandonweiss/charge",
+        "bensmithett/tropical",
+        "facebook/create-react-app"
+      ],
+      "options": {
+        "category": "Static Site Generators"
+      }
+    },
+    {
+      "type": "github.list",
+      "data": "brillout/awesome-react-components",
+      "options": {
+        "markdownCategories": {
+          "H1(\uD83D\uDE80 Absolutely Awesome React Components & Libraries)": { "ignore": true, "recursive": false },
+          "H2(UI Components)": { "rename": "UI Components/{name}" },
+          "H2(UI Components)/H3(Editable data grid / spreadsheet)": { "rename": "UI Components/Data Grids" },
+          "H2(UI Components)/H3(Form Components)": { "rename": "UI Components/Forms" },
+          "H2(UI Layout)": { "rename": "UI Components/Layout" },
+          "H2(UI Animation)": { "rename": "UI Animation" },
+          "H2(UI Frameworks)": { "rename": "UI Frameworks" },
+          "H2(UI Utilities)": {},
+          "H2(Code Design)": { "rename": "Code Design/{name}" },
+          "H2(Utilities)": { "rename": "Utilities/General" },
+          "H2(Utilities)/H3(i18n)": { "rename": "Utilities/Internationalization" },
+          "H2(Utilities)/H3(Framework bindings / integrations)": { "rename": "Utilities/Integrations" },
+          "H2(Utilities)/H3(Integrations with Third Party Services)": { "rename": "Utilities/Third Party Services" },
+          "H2(Performance)": {},
+          "H2(Dev Tools)": { "rename": "Dev Tools/{name}" },
+          "H2(Miscellaneous)": {},
+          "H2(Cloud Solutions)": { "ignore": true }
+        }
+      }
+    }
+  ],
+  "options": {
+    "categoryOrder": [
+      "official",
+      "static-site-generators",
+      "ui-frameworks",
+      "ui-animation",
+      "ui-utilities",
+      "ui-components",
+      "code-design"
+    ]
+  }
+}
