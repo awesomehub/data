@@ -1,0 +1,33 @@
+{
+  "id": "tailwind",
+  "name": "Tailwind CSS",
+  "desc": "Awesome Go frameworks, libraries and software.",
+  "sources": [
+    {
+      "type": "github.list",
+      "data": "avelino/awesome-go",
+      "options": {
+        "markdownCategories": {
+          "H2(Microsoft Office)": {},
+          "H2(Miscellaneous)": { "rename": "Miscellaneous/{name}" },
+          "H2(Networking)": { "rename": "Networking/General" },
+          "H2(Networking)/H3(HTTP Clients)": { "rename": "Networking/HTTP Clients" },
+          "H2(Web Frameworks)": { "rename": "Web Frameworks/Full stack" },
+          "H2(Web Frameworks)/H3(Middlewares)": { "rename": "Web Frameworks/Middlewares" },
+          "H2(Web Frameworks)/H3(Routers)": { "rename": "Web Frameworks/Routers" },
+          "H1(Tools)": { "rename": "Tools/{name}" },
+          "H2(Software Packages)": { "rename": "Software Packages/{name}" },
+          "H1(Resources)": { "ignore": true },
+          "H2(Benchmarks)": {}
+        },
+        "exclude": []
+      }
+    }
+  ],
+  "options": {
+    "categoryOrder": [
+      "official",
+      "setup-actions"
+    ]
+  }
+}

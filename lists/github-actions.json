@@ -1,7 +1,7 @@
 {
   "id": "github-actions",
   "name": "GitHub Actions",
-  "desc": "Awesome list of GitHub Actions for automating different workflows.",
+  "desc": "Awesome list of GitHub Actions for automating different types of workflows.",
   "sources": [
     {
       "type": "github.repos",
