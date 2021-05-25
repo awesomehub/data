@@ -1,0 +1,99 @@
+{
+  "id": "github-actions",
+  "name": "GitHub Actions",
+  "desc": "Awesome list of GitHub Actions for automating different workflows.",
+  "sources": [
+    {
+      "type": "github.repos",
+      "data": [
+        "shivammathur/setup-php",
+        "ruby/setup-ruby",
+        "erlef/setup-beam",
+        "haskell/actions",
+        "pnpm/action-setup",
+        "microsoft/setup-msbuild",
+        "google-github-actions/setup-gcloud",
+        "hashicorp/setup-terraform",
+        "webfactory/ssh-agent",
+        "docker/setup-buildx-action",
+        "docker/setup-qemu-action",
+        "conda-incubator/setup-miniconda",
+        "mirromutth/mysql-action",
+        "engineerd/setup-kind",
+        "ocaml/setup-ocaml",
+        "sfdx-actions/setup-sfdx",
+        "nanasess/setup-chromedriver",
+        "peaceiris/actions-hugo",
+        "android-actions/setup-android",
+        "fwal/setup-swift",
+        "dart-lang/setup-dart",
+        "olafurpg/setup-scala",
+        "actions-rs/install",
+        "clowdhaus/aws-github-actions",
+        "fabasoad/setup-cassandra-action",
+        "fabasoad/setup-cobol-action",
+        "fabasoad/setup-brainfuck-action",
+        "gcarreno/setup-lazarus",
+        "MilesChou/composer-action"
+      ],
+      "options": {
+        "category": "Setup Actions"
+      }
+    },
+    {
+      "type": "github.repos",
+      "data": [
+        "clowdhaus/aws-github-actions",
+        "10up/action-wordpress-plugin-asset-update",
+        "10up/action-wordpress-plugin-deploy"
+      ],
+      "options": {
+        "category": "External Services"
+      }
+    },
+    {
+      "type": "github.repos",
+      "data": [
+        "bobheadxi/deployments",
+        "amondnet/vercel-action",
+        "FirebaseExtended/action-hosting-deploy",
+        "JamesIves/github-pages-deploy-action"
+      ],
+      "options": {
+        "category": "Deployment"
+      }
+    },
+    {
+      "type": "github.repos",
+      "data": [
+        "JamesIves/github-pages-deploy-action"
+      ],
+      "options": {
+        "category": "GitHub Pages"
+      }
+    },
+    {
+      "type": "github.list",
+      "data": "sdras/awesome-actions",
+      "options": {
+        "markdownCategories": {
+          "H2(Official Resources)": { "rename": "Official/Automation" },
+          "H2(Official Resources)/H4(Setup Actions)": { "rename": "Official/Setup Actions" },
+          "H2(Official Resources)/H3(Create your Actions)": { "rename": "Official/Action Development" },
+          "H3(Collection of Actions)": { "ignore": true },
+          "H3(Database)": { "ignore": true },
+          "H3(GitHub Tools and Management)": { "rename": "Tools and Management" }
+        },
+        "exclude": [
+          "microsoft\\/vcpkg$"
+        ]
+      }
+    }
+  ],
+  "options": {
+    "categoryOrder": [
+      "official",
+      "setup-actions"
+    ]
+  }
+}
