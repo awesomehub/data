@@ -1,6 +1,6 @@
 {
-  "id": "tailwind",
-  "name": "Tailwind CSS",
+  "id": "go",
+  "name": "Go",
   "desc": "Awesome Go frameworks, libraries and software.",
   "sources": [
     {
@@ -9,6 +9,8 @@
       "options": {
         "markdownCategories": {
           "H2(Microsoft Office)": {},
+          "H2(Embeddable Scripting Languages)": { "rename": "Embeddable Languages" },
+          "H2(Natural Language Processing)": { "rename": "Language Processing" },
           "H2(Miscellaneous)": { "rename": "Miscellaneous/{name}" },
           "H2(Networking)": { "rename": "Networking/General" },
           "H2(Networking)/H3(HTTP Clients)": { "rename": "Networking/HTTP Clients" },
@@ -25,9 +27,6 @@
     }
   ],
   "options": {
-    "categoryOrder": [
-      "official",
-      "setup-actions"
-    ]
+    "categoryOrder": []
   }
 }
