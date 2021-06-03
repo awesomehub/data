@@ -1,7 +1,7 @@
 {
   "id": "laravel",
   "name": "Laravel",
-  "desc": "Awesome Laravel packages, libraries, utilities and resources.",
+  "desc": "Laravel packages, libraries, utilities and resources.",
   "sources": [
     {
       "type": "github.author",

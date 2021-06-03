@@ -1,7 +1,7 @@
 {
   "id": "go",
   "name": "Go",
-  "desc": "Awesome Go frameworks, libraries and software.",
+  "desc": "Go frameworks, libraries, utilities and software.",
   "sources": [
     {
       "type": "github.list",

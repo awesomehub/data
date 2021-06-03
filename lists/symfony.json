@@ -1,7 +1,7 @@
 {
   "id": "symfony",
   "name": "Symfony",
-  "desc": "Awesome Symfony bundles, utilities and resources.",
+  "desc": "Symfony bundles, utilities and resources.",
   "sources": [
     {
       "type": "github.author",

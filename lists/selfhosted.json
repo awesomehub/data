@@ -1,7 +1,7 @@
 {
   "id": "selfhosted",
   "name": "Self-hosted",
-  "desc": "Awesome free software network services and web applications which can be hosted locally on your own server.",
+  "desc": "Curated list of free software network services and web applications which can be hosted locally on your own server.",
   "sources": [
     {
       "type": "github.list",
