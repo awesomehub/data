@@ -68,10 +68,20 @@
       "type": "github.repos",
       "data": [
         "ng-alain/ng-alain",
-        "coreui/coreui-free-angular-admin-template"
+        "coreui/coreui-free-angular-admin-template",
+        "JohnnyDevNull/ng-three-template"
       ],
       "options": {
         "category": "Seeds"
+      }
+    },
+    {
+      "type": "github.repos",
+      "data": [
+        "nrwl/nx"
+      ],
+      "options": {
+        "category": "Angular CLI"
       }
     },
     {
@@ -87,7 +97,20 @@
     {
       "type": "github.repos",
       "data": [
+        "JsDaddy/ngx-mask",
+        "matheo/angular",
+        "myndpm/open-source"
+      ],
+      "options": {
+        "category": "Components/Forms"
+      }
+    },
+    {
+      "type": "github.repos",
+      "data": [
         "cipchk/ngx-countdown",
+        "replayvalue/ng-helmet",
+        "replayvalue/meta-man",
         "wynfred/ngx-masonry",
         "orizens/ngx-infinite-scroll",
         "didinj/angular-9-coronavirus-cases-app"
