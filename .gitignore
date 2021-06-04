@@ -1,5 +1,17 @@
-.idea
-cache
+# Logs
+logs/
 *.log
+
+# IDE stuff
+.idea/
+.vscode/
+
+# Generic files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Project specific files
+/cache/
 dist/objects
 config.json
